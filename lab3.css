@@ -1,4 +1,4 @@
-/* ===== Өнгө, фонт ===== */
+
 :root {
   --primary: #0f766e;
   --primary-dark: #0b4f4a;
@@ -17,7 +17,6 @@ body {
   margin: 0;
 }
 
-/* ===== Header / nav ===== */
 header {
   background: var(--primary);
   color: #fff;
@@ -29,7 +28,6 @@ nav a:hover { text-decoration: underline; }
 
 main { max-width: 700px; margin: 24px auto; padding: 0 16px; }
 
-/* ===== Box model ===== */
 .form {
   background: var(--card);
   padding: 24px;
@@ -47,7 +45,6 @@ main { max-width: 700px; margin: 24px auto; padding: 0 16px; }
 }
 .form-group legend { font-weight: 700; color: var(--primary); padding: 0 8px; }
 
-/* ===== Гарчиг, талбар ===== */
 .form-label {
   display: block;
   margin: 12px 0 4px;
@@ -72,7 +69,6 @@ textarea:focus {
   box-shadow: 0 0 0 3px rgba(15,118,110,.2);
 }
 
-/* ===== Товчнууд ===== */
 .btn-row { display: flex; gap: 12px; }
 .btn {
   padding: 10px 24px;
@@ -87,8 +83,6 @@ textarea:focus {
 .btn-secondary { background: #64748b; }
 .btn-secondary:hover { background: #475569; }
 
-/* ===== position: relative / absolute ===== */
-/* Badge */
 .section-title { position: relative; display: inline-block; }
 .badge {
   position: absolute;
@@ -101,7 +95,6 @@ textarea:focus {
   border-radius: 10px;
 }
 
-/* Tooltip */
 .tooltip {
   position: relative;
   display: inline-block;
@@ -131,7 +124,6 @@ textarea:focus {
 }
 .tooltip:hover .tooltip-text { visibility: visible; opacity: 1; }
 
-/* ===== Хүснэгт, footer ===== */
 table { border-collapse: collapse; width: 100%; background: var(--card); }
 th { background: var(--primary); color: #fff; }
 td, th { padding: 8px 12px; border: 1px solid var(--border); }
